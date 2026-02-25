@@ -1,0 +1,52 @@
+
+
+body {
+  background-image: url("../images/landscape.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  background: rgba(34, 57, 63, 0.85); 
+  padding: 35px;
+}
+
+body {
+  color: #3c3c3c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  color: #e6f1ef;
+}
+
+h1, h2, h3, h4 {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+  color: #5fa8d3;
+  text-shadow: 0 0 8px rgba(174, 230, 221, 0.4);
+}
+
+nav a {
+  color: #a9d1c9;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+aside {
+  background: rgba(59, 92, 99, 0.75);
+  padding: 20px;
+  border-radius: 20px;  
+}
+
+aside a {
+  color: #b8e3da;
+}
